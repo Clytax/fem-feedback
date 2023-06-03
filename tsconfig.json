@@ -20,7 +20,15 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@components/*": ["./components/*"],
+
+      // Redux
+      "@redux/*": ["./redux/*"],
+      "@features/": ["./features/*"],
+
+      // Assets
+      "@icons/*": ["./components/icons/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
