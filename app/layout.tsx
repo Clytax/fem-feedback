@@ -1,9 +1,11 @@
+"use client";
+
 import "./globals.css";
 import { Jost } from "next/font/google";
 
 const jost = Jost({ subsets: ["latin"] });
 // Redux
-import store from "@redux/store";
+import store from "@/redux/store";
 import { Provider } from "react-redux";
 
 export const metadata = {

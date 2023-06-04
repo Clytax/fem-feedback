@@ -6,6 +6,11 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: "375px",
+      md: "650px",
+      lg: "1200px",
+    },
     extend: {
       colors: {
         purple: "#AD1FEA",
@@ -38,8 +43,12 @@ module.exports = {
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "logo-box-radial": "radial-gradient(#E84D70,#A337F6,  #28A7ED)",
+        "header-bg-mobile": "url('/suggestions/mobile/background-header.png')",
+        "header-bg-tablet": "url('/suggestions/tablet/background-header.png')",
+
+        "header-bg-desktop":
+          "url('/suggestions/desktop/background-header.png')",
       },
     },
   },
